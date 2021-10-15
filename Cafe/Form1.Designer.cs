@@ -53,6 +53,7 @@
             this.priceLabel.Name = "priceLabel";
             this.priceLabel.Size = new System.Drawing.Size(135, 26);
             this.priceLabel.TabIndex = 1;
+            this.priceLabel.Paint += new System.Windows.Forms.PaintEventHandler(this.priceLabel_Paint);
             // 
             // chickenCheckBox
             // 
@@ -64,6 +65,7 @@
             this.chickenCheckBox.TabIndex = 2;
             this.chickenCheckBox.Text = "Chicken";
             this.chickenCheckBox.UseVisualStyleBackColor = true;
+            this.chickenCheckBox.CheckedChanged += new System.EventHandler(this.chickenCheckBox_CheckedChanged);
             // 
             // friesCheckBox
             // 
@@ -75,6 +77,7 @@
             this.friesCheckBox.TabIndex = 3;
             this.friesCheckBox.Text = "Fries";
             this.friesCheckBox.UseVisualStyleBackColor = true;
+            this.friesCheckBox.CheckedChanged += new System.EventHandler(this.friesCheckBox_CheckedChanged);
             // 
             // soucesCheckBox
             // 
@@ -86,6 +89,7 @@
             this.soucesCheckBox.TabIndex = 4;
             this.soucesCheckBox.Text = "Souces";
             this.soucesCheckBox.UseVisualStyleBackColor = true;
+            this.soucesCheckBox.CheckedChanged += new System.EventHandler(this.soucesCheckBox_CheckedChanged);
             // 
             // colaCheckBox
             // 
@@ -97,6 +101,7 @@
             this.colaCheckBox.TabIndex = 5;
             this.colaCheckBox.Text = "Cola";
             this.colaCheckBox.UseVisualStyleBackColor = true;
+            this.colaCheckBox.CheckedChanged += new System.EventHandler(this.colaCheckBox_CheckedChanged);
             // 
             // okButton
             // 
@@ -106,9 +111,11 @@
             this.okButton.TabIndex = 6;
             this.okButton.Text = "Ok";
             this.okButton.UseVisualStyleBackColor = true;
+            this.okButton.Click += new System.EventHandler(this.okButton_Click);
             // 
             // Form1
             // 
+            this.AcceptButton = this.okButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 222);
@@ -122,6 +129,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Cafe";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

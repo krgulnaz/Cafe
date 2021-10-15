@@ -1,0 +1,10 @@
+E:\Projects\TaskGitHub\Cafe\Cafe\Cafe\bin\Debug\Cafe.exe.config
+E:\Projects\TaskGitHub\Cafe\Cafe\Cafe\bin\Debug\Cafe.exe
+E:\Projects\TaskGitHub\Cafe\Cafe\Cafe\bin\Debug\Cafe.pdb
+E:\Projects\TaskGitHub\Cafe\Cafe\Cafe\obj\Debug\Cafe.csprojAssemblyReference.cache
+E:\Projects\TaskGitHub\Cafe\Cafe\Cafe\obj\Debug\Cafe.Form1.resources
+E:\Projects\TaskGitHub\Cafe\Cafe\Cafe\obj\Debug\Cafe.Properties.Resources.resources
+E:\Projects\TaskGitHub\Cafe\Cafe\Cafe\obj\Debug\Cafe.csproj.GenerateResource.cache
+E:\Projects\TaskGitHub\Cafe\Cafe\Cafe\obj\Debug\Cafe.csproj.CoreCompileInputs.cache
+E:\Projects\TaskGitHub\Cafe\Cafe\Cafe\obj\Debug\Cafe.exe
+E:\Projects\TaskGitHub\Cafe\Cafe\Cafe\obj\Debug\Cafe.pdb
